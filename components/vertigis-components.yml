@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://developers.vertigisstudio.com/docs/web/api-components/
+component_families:
+- name: VertiGIS Studio Web Components
+  loader: "@vertigis/web-sdk"
+  docs: https://developers.vertigisstudio.com/docs/web/api-components/
+  description: >-
+    Declarative, embeddable UI components and layouts that compose a VertiGIS Studio
+    Web mapping application (map, tables, feature details, forms, tools). Custom
+    components are authored and registered through the Web SDK.
+- name: VertiGIS Studio Web Services
+  loader: "@vertigis/web-sdk"
+  docs: https://developers.vertigisstudio.com/docs/web/sdk-services-reference/
+  description: >-
+    Shared client-side services (commands, operations, data, and REST-integration
+    services) that back the Web components at runtime.
+- name: VertiGIS Studio Mobile Components
+  loader: vertigis-mobile-sdk
+  docs: https://developers.vertigisstudio.com/docs/mobile/api-components/
+  description: >-
+    Component and service surface for building custom VertiGIS Studio Mobile
+    (Geocortex Mobile) field applications on the .NET SDK.
+- name: Geocortex ArcGIS Extensions
+  loader: "@vertigis/arcgis-extensions"
+  docs: https://www.npmjs.com/package/@vertigis/arcgis-extensions
+  description: >-
+    Client-side extensions that layer Geocortex capabilities onto Esri's ArcGIS
+    Maps SDK for JavaScript.

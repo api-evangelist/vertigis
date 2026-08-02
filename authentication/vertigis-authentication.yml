@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://developers.vertigisstudio.com/docs/reporting/sdk-overview/
+docs: https://developers.vertigisstudio.com/docs/web/sdk-services-reference/
+summary:
+  types: [oauth2, token]
+  identity_provider: Esri ArcGIS Identity (ArcGIS Online / ArcGIS Enterprise Portal)
+  notes: >-
+    VertiGIS Studio does not issue its own credentials. Access to the Reporting REST
+    API, Web, Mobile, and Workflow services is authorized with an ArcGIS access token
+    obtained from the user's ArcGIS Online or ArcGIS Enterprise portal via OAuth 2.0,
+    then passed to the VertiGIS service. Anonymous access is possible for
+    unsecured maps and public reporting templates.
+schemes:
+- name: ArcGISToken
+  type: apiKey
+  in: query
+  parameter: token
+  description: >-
+    ArcGIS access token passed to the Reporting/Printing REST service (or supplied to
+    the JavaScript/Python reporting client) to authorize a job. Acquired from the
+    ArcGIS portal.
+- name: ArcGISOAuth2
+  type: oauth2
+  flow: authorizationCode
+  authorization_provider: ArcGIS Online / ArcGIS Enterprise
+  description: >-
+    OAuth 2.0 named-user or app login handled by Esri ArcGIS Identity; VertiGIS Studio
+    applications and SDKs consume the resulting portal token.

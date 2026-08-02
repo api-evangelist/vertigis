@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://support.vertigis.com/
+versioning:
+  scheme: product-release
+  notes: >-
+    VertiGIS Studio products are versioned as dated product releases (e.g. tracked
+    against ArcGIS Enterprise 11.x compatibility). SDK packages follow semantic
+    versioning on npm (@vertigis/web-sdk, @vertigis/workflow, @vertigis/reporting-client).
+deprecation:
+  policy_url: https://support.vertigis.com/hc/en-us/articles/11461111341202-Deprecation-Plan-for-VertiGIS-Studio-and-Geocortex-Products
+  notes: >-
+    VertiGIS publishes a formal deprecation plan covering the transition of legacy
+    Geocortex products to VertiGIS Studio and end-of-life timelines.
+compatibility:
+  docs: https://support.vertigis.com/hc/en-us/articles/11461032910738-VertiGIS-Studio-Geocortex-Products-and-ArcGIS-Enterprise-11
+  notes: Per-release ArcGIS Enterprise compatibility matrices are published in the support center.
+status_page: null
+sla: null

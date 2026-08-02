@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/vertigis
+packages:
+- language: javascript
+  registry: npm
+  name: "@vertigis/web-sdk"
+  url: https://www.npmjs.com/package/@vertigis/web-sdk
+  install: npm install @vertigis/web-sdk
+  version: 3.0.3
+  official: true
+  description: The SDK for extending VertiGIS Studio Web.
+  repository: https://github.com/vertigis/vertigis-web-sdk
+- language: javascript
+  registry: npm
+  name: "@vertigis/workflow"
+  url: https://www.npmjs.com/package/@vertigis/workflow
+  install: npm install @vertigis/workflow
+  version: 5.51.0
+  official: true
+  description: VertiGIS Studio Workflow SDK / activity host for building custom workflow activities.
+  repository: https://github.com/vertigis/vertigis-workflow-sdk
+- language: javascript
+  registry: npm
+  name: "@vertigis/arcgis-extensions"
+  url: https://www.npmjs.com/package/@vertigis/arcgis-extensions
+  install: npm install @vertigis/arcgis-extensions
+  version: 54.4.2
+  official: true
+  description: An API that adds Geocortex extensions to Esri's ArcGIS JavaScript API.
+- language: javascript
+  registry: npm
+  name: "@vertigis/reporting-client"
+  url: https://www.npmjs.com/package/@vertigis/reporting-client
+  install: npm install @vertigis/reporting-client
+  version: 2.1.0
+  official: true
+  description: VertiGIS Studio Reporting client for the browser (run reporting/printing jobs).
+  repository: https://github.com/vertigis/vertigis-reporting-client-js
+- language: python
+  registry: github
+  name: vertigis-workflow-client-py
+  url: https://github.com/vertigis/vertigis-workflow-client-py
+  install: pip install git+https://github.com/vertigis/vertigis-workflow-client-py
+  official: true
+  description: An easy-to-use Python API for running VertiGIS Studio Server Workflows.
+- language: csharp
+  registry: github
+  name: vertigis-mobile-sdk
+  url: https://github.com/vertigis/vertigis-mobile-quickstart
+  official: true
+  description: >-
+    VertiGIS Studio Mobile (Geocortex Mobile) SDK for building custom .NET / C#
+    field applications; distributed via the mobile quickstart and samples repos.

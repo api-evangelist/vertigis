@@ -1,0 +1,13 @@
+# Our security address
+Contact: mailto:privacy@vertigis.com
+
+# Validity of this policy
+Expires: 2027-12-30T23:00:00.000Z
+
+# Preferred language
+Preferred-Languages:en
+
+# Our Security Policy:
+# Dear security consultant / ethical hacker, VertiGIS does not support a Bug Bounty program and we don't pay any bug bounties.
+# If you detect a vulnerability in our environment it would be great if you could inform us via email to privacy@vertigis.com.
+# We will then contact you and agree how to communicate details in a secure (encrypted) way.

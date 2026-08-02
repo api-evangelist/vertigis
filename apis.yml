@@ -1,7 +1,30 @@
 aid: vertigis
 name: VertiGIS
-description: VertiGIS is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  VertiGIS is a geographic information systems (GIS) software provider that builds
+  tools helping utilities, telecommunications, energy, public sector, and land
+  management organizations connect their business processes with location technology.
+  Its flagship VertiGIS Studio suite (formerly Geocortex) extends Esri ArcGIS with
+  low-code applications for web and mobile mapping, report generation, printing, and
+  business-process automation. VertiGIS exposes a developer platform of JavaScript,
+  TypeScript, C#, and Python SDKs plus a hosted Reporting REST API for automating
+  report and print jobs, documented at the VertiGIS Studio Developer Center. VertiGIS
+  was assembled by Battery Ventures around Latitude Geographics and operates a
+  portfolio of GIS brands including Geocortex, GEONIS, WebOffice, ProOffice, UT for
+  ArcGIS, 3A for ArcGIS, and ConnectMaster.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.vertigis.com/wp-content/uploads/2021/03/VertiGIS_Logo.png
 url: https://raw.githubusercontent.com/api-evangelist/vertigis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,90 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 10
+  pass: local-v1
 tags:
 - Company
-apis: []
+- GIS
+- Geospatial
+- Mapping
+- ArcGIS
+- Esri
+- Location Intelligence
+- Reporting
+- SDK
+- Developer Tools
+- Workflow Automation
+- Utilities
+apis:
+- name: VertiGIS Studio Reporting REST API
+  description: >-
+    The VertiGIS Studio Reporting REST API generates reports and printed maps from
+    spatial and non-spatial data. Jobs are submitted, polled, and their artifacts
+    retrieved over HTTP; first-party JavaScript and Python client libraries wrap the
+    same endpoints. Reporting runs against a hosted multi-tenant service or an
+    on-premises VertiGIS Studio Reporting deployment.
+  humanURL: https://developers.vertigisstudio.com/docs/reporting/sdk-overview/
+  baseURL: https://apps.vertigisstudio.com/reporting/
+  tags:
+  - GIS
+  - Reporting
+  - Mapping
+  - Esri
+  properties:
+  - type: Documentation
+    url: https://developers.vertigisstudio.com/docs/reporting/sdk-overview/
+  - type: SDKs
+    url: https://github.com/vertigis/vertigis-reporting-client-js
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DeveloperPortal
+  url: https://developers.vertigisstudio.com/
+- type: Documentation
+  url: https://docs.vertigisstudio.com/
+- type: APIReference
+  url: https://developers.vertigisstudio.com/docs/web/api-objects/
+- type: GettingStarted
+  url: https://developers.vertigisstudio.com/docs/web/overview/
+- type: Support
+  url: https://support.vertigis.com/
+- type: Blog
+  url: https://www.vertigis.com/vertigis_blog/
+- type: GitHubOrganization
+  url: https://github.com/vertigis
+- type: PrivacyPolicy
+  url: https://www.vertigis.com/privacy-center
+- type: Packages
+  url: packages/vertigis-packages.yml
+- type: SDKs
+  url: packages/vertigis-packages.yml
+- type: WellKnown
+  url: well-known/vertigis-well-known.yml
+- type: SecurityTxt
+  url: well-known/vertigis-security.txt
+- type: LLMsTxt
+  url: llms/vertigis-llms.txt
+- type: Authentication
+  url: authentication/vertigis-authentication.yml
+- type: Lifecycle
+  url: lifecycle/vertigis-lifecycle.yml
+- type: Deprecation
+  url: https://support.vertigis.com/hc/en-us/articles/11461111341202-Deprecation-Plan-for-VertiGIS-Studio-and-Geocortex-Products
+- type: DomainSecurity
+  url: security/vertigis-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/vertigis-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.vertigis.com/.well-known/security.txt
+- type: CLI
+  url: cli/vertigis-cli.yml
+- type: Components
+  url: components/vertigis-components.yml

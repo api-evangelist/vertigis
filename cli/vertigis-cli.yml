@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/vertigis/vertigis-web-sdk
+clis:
+- name: VertiGIS Studio Web SDK CLI
+  package: "@vertigis/web-sdk"
+  install:
+  - npx @vertigis/web-sdk create <app-name>
+  - npm install @vertigis/web-sdk
+  description: >-
+    Scaffolding and build CLI for extending VertiGIS Studio Web. Bootstraps a new
+    SDK project and runs the local development/build toolchain.
+  commands:
+  - name: create
+    summary: Bootstrap a new VertiGIS Studio Web SDK project.
+  - name: start
+    summary: Run the local development server with hot reload.
+  - name: build
+    summary: Produce a production build of the custom viewer/app.
+- name: VertiGIS Studio Workflow SDK CLI
+  package: "@vertigis/workflow-sdk"
+  install:
+  - npx @vertigis/workflow-sdk create <activity-pack>
+  description: >-
+    Scaffolding CLI for building custom VertiGIS Studio Workflow activity packs
+    and hosting them during development.
+  commands:
+  - name: create
+    summary: Bootstrap a new Workflow activity pack project.
+  - name: build
+    summary: Build the activity pack for deployment.

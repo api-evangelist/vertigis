@@ -1,0 +1,40 @@
+# VertiGIS
+
+> VertiGIS is a geographic information systems (GIS) software provider whose VertiGIS Studio suite (formerly Geocortex) extends Esri ArcGIS with low-code web and mobile mapping, reporting, printing, and workflow automation. Developers integrate through JavaScript, TypeScript, C#, and Python SDKs and a hosted Reporting REST API.
+
+## APIs
+- [VertiGIS Studio Reporting REST API](https://developers.vertigisstudio.com/docs/reporting/sdk-overview/): Generate reports and printed maps from spatial and non-spatial data; hosted at https://apps.vertigisstudio.com/reporting/
+
+## SDKs & Packages
+- [@vertigis/web-sdk](https://www.npmjs.com/package/@vertigis/web-sdk): SDK for extending VertiGIS Studio Web
+- [@vertigis/workflow](https://www.npmjs.com/package/@vertigis/workflow): VertiGIS Studio Workflow SDK / activity host
+- [@vertigis/arcgis-extensions](https://www.npmjs.com/package/@vertigis/arcgis-extensions): Geocortex extensions for Esri's ArcGIS JavaScript API
+- [@vertigis/reporting-client](https://www.npmjs.com/package/@vertigis/reporting-client): Browser client for running reporting/printing jobs
+- [vertigis-workflow-client-py](https://github.com/vertigis/vertigis-workflow-client-py): Python client for running Server Workflows
+- [VertiGIS Studio Mobile SDK](https://github.com/vertigis/vertigis-mobile-quickstart): .NET / C# SDK for custom field apps
+
+## Docs
+- [VertiGIS Studio Developer Center](https://developers.vertigisstudio.com/)
+- [VertiGIS Studio Documentation](https://docs.vertigisstudio.com/)
+- [Web API Object Reference](https://developers.vertigisstudio.com/docs/web/api-objects/)
+- [Web SDK Services Reference](https://developers.vertigisstudio.com/docs/web/sdk-services-reference/)
+- [Reporting SDK Overview](https://developers.vertigisstudio.com/docs/reporting/sdk-overview/)
+
+## Repositories
+- [GitHub organization](https://github.com/vertigis)
+
+## Company
+- [Website](https://www.vertigis.com/)
+- [Blog](https://www.vertigis.com/vertigis_blog/)
+- [Support](https://support.vertigis.com/)
+- [Deprecation Plan](https://support.vertigis.com/hc/en-us/articles/11461111341202-Deprecation-Plan-for-VertiGIS-Studio-and-Geocortex-Products)
+- [Privacy Center](https://www.vertigis.com/privacy-center)
+- [security.txt](https://www.vertigis.com/.well-known/security.txt)
+
+## Artifacts
+- [Packages / SDKs](packages/vertigis-packages.yml)
+- [Authentication](authentication/vertigis-authentication.yml)
+- [Lifecycle](lifecycle/vertigis-lifecycle.yml)
+- [CLI](cli/vertigis-cli.yml)
+- [Components](components/vertigis-components.yml)
+- [Well-Known](well-known/vertigis-well-known.yml)
