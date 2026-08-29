@@ -12,6 +12,17 @@ description: >-
   was assembled by Battery Ventures around Latitude Geographics and operates a
   portfolio of GIS brands including Geocortex, GEONIS, WebOffice, ProOffice, UT for
   ArcGIS, 3A for ArcGIS, and ConnectMaster.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
