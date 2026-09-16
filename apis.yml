@@ -1,17 +1,14 @@
 aid: vertigis
 name: VertiGIS
-description: >-
-  VertiGIS is a geographic information systems (GIS) software provider that builds
-  tools helping utilities, telecommunications, energy, public sector, and land
-  management organizations connect their business processes with location technology.
-  Its flagship VertiGIS Studio suite (formerly Geocortex) extends Esri ArcGIS with
-  low-code applications for web and mobile mapping, report generation, printing, and
-  business-process automation. VertiGIS exposes a developer platform of JavaScript,
-  TypeScript, C#, and Python SDKs plus a hosted Reporting REST API for automating
-  report and print jobs, documented at the VertiGIS Studio Developer Center. VertiGIS
-  was assembled by Battery Ventures around Latitude Geographics and operates a
-  portfolio of GIS brands including Geocortex, GEONIS, WebOffice, ProOffice, UT for
-  ArcGIS, 3A for ArcGIS, and ConnectMaster.
+description: VertiGIS is a geographic information systems (GIS) software provider that builds tools helping
+  utilities, telecommunications, energy, public sector, and land management organizations connect their
+  business processes with location technology. Its flagship VertiGIS Studio suite (formerly Geocortex)
+  extends Esri ArcGIS with low-code applications for web and mobile mapping, report generation, printing,
+  and business-process automation. VertiGIS exposes a developer platform of JavaScript, TypeScript, C#,
+  and Python SDKs plus a hosted Reporting REST API for automating report and print jobs, documented at
+  the VertiGIS Studio Developer Center. VertiGIS was assembled by Battery Ventures around Latitude Geographics
+  and operates a portfolio of GIS brands including Geocortex, GEONIS, WebOffice, ProOffice, UT for ArcGIS,
+  3A for ArcGIS, and ConnectMaster.
 deliveryModel:
   model: library
   open_source: false
@@ -45,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-16'
 x-enrichment:
   date: '2026-07-21'
   status: enriched
@@ -79,12 +76,10 @@ tags_raw:
 - Utilities
 apis:
 - name: VertiGIS Studio Reporting REST API
-  description: >-
-    The VertiGIS Studio Reporting REST API generates reports and printed maps from
-    spatial and non-spatial data. Jobs are submitted, polled, and their artifacts
-    retrieved over HTTP; first-party JavaScript and Python client libraries wrap the
-    same endpoints. Reporting runs against a hosted multi-tenant service or an
-    on-premises VertiGIS Studio Reporting deployment.
+  description: The VertiGIS Studio Reporting REST API generates reports and printed maps from spatial
+    and non-spatial data. Jobs are submitted, polled, and their artifacts retrieved over HTTP; first-party
+    JavaScript and Python client libraries wrap the same endpoints. Reporting runs against a hosted multi-tenant
+    service or an on-premises VertiGIS Studio Reporting deployment.
   humanURL: https://developers.vertigisstudio.com/docs/reporting/sdk-overview/
   baseURL: https://apps.vertigisstudio.com/reporting/
   tags:
@@ -103,6 +98,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Website
+  url: https://vertigisstudio.com
 - type: DeveloperPortal
   url: https://developers.vertigisstudio.com/
 - type: Documentation
