@@ -59,7 +59,7 @@ tags:
 - Reporting
 - SDK
 - Developer Tools
-- Workflow-Automation
+- Workflow Automation
 - Utilities
 tags_raw:
 - Company
@@ -74,6 +74,7 @@ tags_raw:
 - Developer Tools
 - Workflow Automation
 - Utilities
+- Workflow-Automation
 apis:
 - name: VertiGIS Studio Reporting REST API
   description: The VertiGIS Studio Reporting REST API generates reports and printed maps from spatial
